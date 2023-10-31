@@ -4,38 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./styles/style.css">
+    
 </head>
 <body>
+    <nav class="navbar">
+        <div class="logo-cont">
+            <img 
+            class="me-image"
+            src="./assets/146291630_797939024134392_4620301093485677644_n.jpg" 
+            alt="LogoImg"
+            width="100px">
+            <h6><-----------that's me</h6>
+        </div>
+        <div class="menu-cont">
+            <ul>
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>HELP</li>
+            </ul>
+        </div>
+    </nav>
     <div class="first-div-page">
-        <nav class="navbar">
-            <div class="loco-cont">
-                <img src="" alt="">
-            </div>
-            <div class="menu-cont">
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-        </nav>
+       
         <div class="first-page-cont">
             <div class="left">
-                <h1></h1>
-                <p></p>
-                <button></button>
+                <h1 id="more-less"></h1>
+                <p class="tips">(Tip for myself:)Try to say more with less words.</p>
+                <button
+                onclick="moreLesss(event)" id="less-more">Help me learn to say more with less words</button>
             </div>
             <div class="right">
-                <img src="" alt="">
+                <img
+                class="image" 
+                src="./assets/2sr0iweld6t11.jpg" alt="some inspirational img"
+                width="600px">
+                
             </div>
         </div>
     </div>
     <div class="second-div-page">
         <div class="second-top">
-            <h1></h1>
+            <h1>This is me presenting my projects from TOP</h1>
         </div>
+        <div class="empty">WOW such EMPTY<br/>(It will be updated with me finishing the projects.)</div>
         <div class="second-bottom">
             <div class="component">
                 <div class="picture-comp"></div>
@@ -44,20 +57,29 @@
         </div>
     </div>
     <div class="third-div-page">
+        <figure class="quote">
+            <blockquote>
+                <q>I'm allergic to sushi, every time I eat more than 80 sushi, I barf.</q>
+            </blockquote><br/>
+            <figcaption>
+              &mdash; Andy Dwyer, <cite>Parks and Rec</cite>  </figcaption>
+          </figure>
         <blockquote class="quote"></blockquote>
     </div>
     <div class="job-div-help">
         <div class="job-text">
-            <h5></h5>
-            <p></p>
+            <h3>Hire me if you can!</h3>
+            <p>I'm a beginner web-developer, know a lot of things, also loves to learn new things, currently studying TOP,FCC,CS50,React. Dream is to become software engineer for some space company,I'm looking at some X rn, but first I got to center some divs. So contact me if you wish.</p>
         </div>
         <div class="job-btns-social">
-            <button></button>
-            <button></button>
-            <button></button>
+            <a href="https://www.facebook.com/nenadczv.jovanovic/?locale=ms_MY" class="fa fa-facebook icon"></a>
+            <a href="https://www.instagram.com/jasamsone/" class="fa fa-instagram icon"></a>
+            <a href="https://rs.linkedin.com/in/nenad-jovanovic-342734263" class="fa fa-linkedin icon"></a>
         </div>
     </div>
-
+    <footer>
+        <p></p>
+    </footer>
     <script src="./jsf/index.js"></script>
 </body>
 </html>
