@@ -103,6 +103,38 @@ li a {
     align-items: center;
     height: 400px;
 }
+.second-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+}
+.component {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.picture-comp {
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    background-color: #F27405;
+    border: 5px solid #F27405;
+    border-radius: 20px;
+}
+.comp-pic {
+    object-fit: cover;
+    border-radius: 10px;
+    width: inherit;
+    height: inherit;
+}
+a {
+    color: #F27405;
+    text-decoration: none;
+    text-align: center;
+}
 
 .third-div-page {
     background-color: #014040;
